@@ -1,0 +1,7 @@
+using bitwise:
+2- last bit equal to zero
+3- odd position set differ even position set bits multiple to 3( differ=0 -> true else false)
+4- (n&3==0 -> true)
+6- chech with 2 and 3
+8- (n&7==0-> true)
+9- (n>>3 - n&7 ==0-> true)
